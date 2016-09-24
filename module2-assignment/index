@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Types of colors</title>
+	<link rel="stylesheet" type="text/css" href="css/mystyle.css">
+</head>
+<body>
+<h1 > BASIC COLORS OF HTML</h1>
+	<div class= "row">
+		<div class = "col-lg-4 col-md-6 col-sm-12"> 
+		<p id= "Red"> <span> RED</span> <br> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Deinde disputat, quod cuiusque generis animantium statui deceat extremum. Atque his de rebus et splendida est eorum et illustris oratio. Mihi vero, inquit, placet agi subtilius et, ut ipse dixisti, pressius. Nam Pyrrho, Aristo, Erillus iam diu abiecti. Quae similitudo in genere etiam humano apparet. Quantum Aristoxeni ingenium consumptum videmus in musicis?</p>
+		</div>
+		<div class = "col-lg-4 col-md-6 col-sm-12"> 
+		<p id= "Green"> <span> GREEN</span> <br> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Deinde disputat, quod cuiusque generis animantium statui deceat extremum. Atque his de rebus et splendida est eorum et illustris oratio. Mihi vero, inquit, placet agi subtilius et, ut ipse dixisti, pressius. Nam Pyrrho, Aristo, Erillus iam diu abiecti. Quae similitudo in genere etiam humano apparet. Quantum Aristoxeni ingenium consumptum videmus in musicis? </p>
+		</div>
+		<div class = "col-lg-4 col-md-12 col-sm-12"> 
+		<p id= "blue"> <span>BLUE</span> <br> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Deinde disputat, quod cuiusque generis animantium statui deceat extremum. Atque his de rebus et splendida est eorum et illustris oratio. Mihi vero, inquit, placet agi subtilius et, ut ipse dixisti, pressius. Nam Pyrrho, Aristo, Erillus iam diu abiecti. Quae similitudo in genere etiam humano apparet. Quantum Aristoxeni ingenium consumptum videmus in musicis?</p>
+		</div>
+	</div>
+</body>
+</html>

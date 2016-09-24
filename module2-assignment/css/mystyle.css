@@ -1,0 +1,73 @@
+	* {
+		box-sizing: border-box;
+	}
+
+	.row {
+		
+		height: 400px;
+		margin-top: 50px;
+	}
+
+	h1 {
+		text-align: center;
+	}
+	body{
+		background-color: #EAECEE;
+		margin-top: 50px;
+	}
+	/***BASE STYLES***/
+
+		#Red {
+			background-color: #F70A0A;		
+		}
+		#Green {
+			background-color: #17AE07;		
+		}
+		#blue {
+			background-color: #3E51E2;	
+		}
+		p{
+			float: left;
+			margin: 20px;
+			text-align: justify;
+			padding-left: 10px;
+			padding-right: 10px;
+			padding-bottom: 10px;
+			position: relative;
+			border: 1px solid black;
+		}		
+		span {
+			border: 1px solid black;			
+			background-color: white;
+			position: absolute;
+			text-align: center;
+			right: 0px;
+			width: 70px;
+		}
+
+		/***FOR LARGE DEVICES***/
+		@media (min-width: 992px) {
+			.col-lg-4 {
+				float: left;
+				width: 33.33%;
+			}
+
+		}
+		/*** FOR MEDIUM DEVICES***/
+		@media (min-width: 768px) and (max-width: 991px){
+			.col-md-6 {
+				float: left;
+				width: 50%;
+				
+			}
+			.col-md-12 {
+				float: left;
+				width: 100%;
+			}
+		}
+		/***FOR MOBILE DEVICES***/
+		@media (max-width: 767px){
+			.col-sm-12 {
+				width: 100%;
+			}
+		}
